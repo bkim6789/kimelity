@@ -1,0 +1,32 @@
+@import '../../core/core.scss';
+
+.root {
+    padding: $cardPadding;
+    position: relative;
+    height: 40px;
+}
+
+.symbol {
+    position: absolute;
+    top: $verticalPadding;
+    left: $horizontalPadding;
+    font-weight: $symbolWeight;
+}
+
+.quantity {
+    position: absolute;
+    bottom: $verticalPadding;
+    left: $horizontalPadding;
+}
+
+.last {
+    position: absolute;
+    top: $verticalPadding;
+    right: $horizontalPadding;
+}
+
+.percentChange {
+    position: absolute;
+    bottom: $verticalPadding;
+    right: $horizontalPadding;
+}

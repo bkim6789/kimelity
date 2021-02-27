@@ -1,0 +1,37 @@
+.root {
+    width: 325px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 25px 25px 25px;
+
+    border: 1px solid rgba(0, 0, 0, .12);
+    border-radius: 4px;
+}
+
+.logoWrapper {
+    position: relative;
+    height: 30px;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input {
+    margin-top: 10px;
+    width: 100%;
+} 
+.login {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.error {
+    position: absolute;
+    color: red;
+    bottom: 5px;
+}

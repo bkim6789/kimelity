@@ -1,0 +1,20 @@
+.root {
+    display: flex;
+    height: 100%;
+    align-items: stretch;
+}
+
+.mainContent {
+    flex-grow: 1;
+}
+
+.portfolioContent {
+    flex-grow: 0;
+    width: 300px;
+    padding: 20px;
+}
+.portfolio {
+    height: 100%;
+    overflow-y: scroll;
+}
+

@@ -1,0 +1,12 @@
+@import '../core.scss';
+
+.logo {
+    width: 135px;
+    display: flex;
+    align-items: center;
+
+    font-family: fantasy;
+    font-style: italic;
+    color: $secondaryColor;
+    font-size: x-large;
+}

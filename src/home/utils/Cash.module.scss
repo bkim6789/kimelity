@@ -1,0 +1,15 @@
+@import '../../core/core.scss';
+
+.root {
+    padding: $cardPadding;
+    border-bottom: $thinBorder;
+}
+
+.label {
+    font-size: large;
+    font-weight: $labelWeight;
+}
+
+.cashValue {
+    margin-top: 2px;
+}
