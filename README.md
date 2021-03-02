@@ -1,3 +1,7 @@
+# to run
+- yarn install
+- yarn start
+
 ## setup
 ```
 $ npx create-react-app my-app
